@@ -33,3 +33,7 @@ dictionary = dict(zip(def_uk, def_ex))
 df = pd.DataFrame(data=dictionary, index=[0])
 df = (df.T)
 df.to_excel('2-1.xlsx')
+
+
+# 수정
+a = 1
